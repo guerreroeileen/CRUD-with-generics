@@ -1,6 +1,3 @@
-# CRUD-with-generics
-Demo project Spring Boot + JPA, PostgreSQL, Generics...
-
 # Getting Started
 
 ### Reference Documentation
@@ -25,7 +22,3 @@ These additional references should also help you:
 
 * [Gradle Build Scans – insights for your project's build](https://scans.gradle.com#gradle)
 
-Note: update your application.properties in src/main/application.properties to your database configuration.
-
-* spring.datasource.username=YOUR-USERNAME
-* spring.datasource.password=YOUR-PASSWORD
