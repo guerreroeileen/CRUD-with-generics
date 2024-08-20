@@ -15,11 +15,11 @@ import java.io.Serializable;
 @Entity
 @EqualsAndHashCode(callSuper = false)
 @Table(name = "student")
-public class Student extends BaseEntity implements Serializable {
+public class Student extends BaseEntity<Long> implements Serializable {
     private String name;
     private String lastName;
     private Integer age;
     private String city;
     private String address;
-    private Double averageStudentCalification;
+    private Double averageStudentGrade;
 }

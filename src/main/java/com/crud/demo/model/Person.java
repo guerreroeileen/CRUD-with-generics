@@ -15,7 +15,7 @@ import java.io.Serializable;
 @Entity
 @EqualsAndHashCode(callSuper = false)
 @Table(name = "person")
-public  class Person extends BaseEntity implements Serializable {
+public  class Person extends BaseEntity<Long> implements Serializable {
     private String name;
     private String lastName;
     private Integer age;
