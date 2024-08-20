@@ -6,6 +6,7 @@ import org.springframework.stereotype.Service;
 import java.io.Serializable;
 import java.util.Optional;
 
+@Service
 public class GenericService <T extends BaseEntity, ID extends Serializable>
 {
 

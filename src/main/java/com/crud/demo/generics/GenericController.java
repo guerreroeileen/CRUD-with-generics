@@ -36,7 +36,7 @@ public class GenericController <T extends BaseEntity, ID extends Serializable>{
     @DeleteMapping(value = "delete/{id}")
     private ResponseEntity<Boolean> deleteEntitById (@PathVariable ("id") ID id){
         genericService.deleteById(id);
-        return ResponseEntity.ok(!(genericService.findById(id)!=null));
+        return ResponseEntity.ok(genericService.findById(id).isEmpty());
 
     }
 
