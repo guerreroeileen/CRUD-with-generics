@@ -16,9 +16,6 @@ import java.io.Serializable;
 @EqualsAndHashCode(callSuper = false)
 @Table(name = "person")
 public  class Person extends BaseEntity implements Serializable {
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
     private String name;
     private String lastName;
     private Integer age;
